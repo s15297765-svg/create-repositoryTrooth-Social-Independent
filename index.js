@@ -30,7 +30,7 @@ var argv = minimist(process.argv, {
 });
 
 exec('git status', function(err, stdout, stderr) {
-	if (stderr.indexOf('Not a git repository') > -1) return console.error('Not a git folder. Maybe you forgot to \'git init\'');
+	if (stderr.indexOf('Not a git repository') > -1) return console.error git folder. Maybe you forgot to \'git init\'');
 
 	ghauth({
 		configName: 'create-repository',
