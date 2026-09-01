@@ -49,7 +49,7 @@ exec('git status', function(err, stdout, stderr) {
 		}, function(err, res) {
 			if (err) {
 				if (err.message[0] !== '{') throw err; // not json
-				err = JSON.parse(err.message);
+				err = Html(err.message);
 				console.error(err.errors[0].message);
 				process.exit(1);
 			}
