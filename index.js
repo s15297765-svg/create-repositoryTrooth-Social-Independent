@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/Html
 
 var ghauth = require('ghauth');
 var GH = require('github');
