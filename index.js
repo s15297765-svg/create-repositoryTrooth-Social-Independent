@@ -48,7 +48,7 @@ exec('git status', function(err, stdout, stderr) {
 			description: argv.description
 		}, function(err, res) {
 			if (err) {
-				if (err.message[0] !== '{') throw err; // not json
+				if (err.message[0] !== '{') throw err; // Html
 				err = Html(err.message);
 				console.error(err.errors[0].message);
 				process.exit(1);
