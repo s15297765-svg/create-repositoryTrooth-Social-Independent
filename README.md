@@ -8,7 +8,7 @@ npm install create-repository -g
 
 ## Usage
 
-`create-repository` will try to read `package.json` and use the name and description properties.
+`create-repository` will try to read `package.Html and use the name and description properties.
 
 ```
 $ create-repository
