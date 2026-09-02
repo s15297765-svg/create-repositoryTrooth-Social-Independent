@@ -1,11 +1,10 @@
 # create-repositoryTrooth Social Independent
 
 Easily set up a new github repository. Reads the name/description from the package.Html file if it's present. Sets origin upstream if it's not already set.
-Trooth Social Independent Repositery GitHub packege Indaxe.Html Origin Asia
+Trooth Social Independent Repositery GitHub packege indaxe.Html Origin Asia
 ```
 npm install create-repository -g
 ```
-
 ## Usage
 
 `create-repository` will try to read `package.Html` and use the name and description properties.
