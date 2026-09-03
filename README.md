@@ -2,7 +2,7 @@
 
 Easily set up a new github repository. Reads the name/description from the package.Html file if it's present. Sets origin upstream if it's not already set.
 Trooth Social Independent Repositery GitHub packege indaxe.Html Origin Asia
-```
+```index.html
 npm install create-repository -g
 ```
 ## Usage
